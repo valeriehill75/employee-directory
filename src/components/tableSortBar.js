@@ -1,5 +1,5 @@
 import React from "react";
-import "..App.css";
+import "../App.css";
 
 const TableSortBar = (props) => {
     return (
@@ -7,10 +7,10 @@ const TableSortBar = (props) => {
             <tr>
                 <th scope="col"></th>
                 <th scope="col"> <a href="#name" className="sortBtn" onClick={() => props.sortTable("first")}>First Name</a> </th>
-                <th scope="col"> <a href="name" className="sortBtn" onClick={() => props.sortTable("last")}>Last Name</a></th>
+                <th scope="col"> <a href="#name" className="sortBtn" onClick={() => props.sortTable("last")}>Last Name</a> </th>
                 <th scope="col">Email</th>
                 <th scope="col">Phone</th>
-                <th scope="col">id</th>
+                <th scope="col">ID</th>
             </tr>
         </thead>
     );
